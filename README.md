@@ -58,6 +58,10 @@ Starting:
 
 Start with: `p4v`
 
+```
+   p4v
+```
+
 Look at the documentation in the `doc/intro/intro.html`
 (or `/usr/lib/p4vasp/doc/intro.html`, when installed),
 if you need some clues how to deal with the p4v GUI.

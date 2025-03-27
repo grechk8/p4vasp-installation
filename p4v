@@ -1,0 +1,7 @@
+#!/usr/bin/sh
+export LD_PRELOAD=libstdc++.so.6
+export PYTHONPATH=$PYTHONPATH:/home/grechk8/p4vasp/python-packages
+#export APPMENU_DISPLAY_BOTH=1
+export UBUNTU_MENUPROXY=0
+export P4VASP_HOME=/home/grechk8/p4vasp
+exec python2 /home/grechk8/p4vasp/bin/p4v.py "$@"

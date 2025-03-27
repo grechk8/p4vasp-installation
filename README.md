@@ -43,7 +43,7 @@ Change directory:
 Run the custom installation script
 
 ```
-   chmod +x install_p4vasp_env.sh
+   chmod +x install.sh
    ./install.sh
 ```
 
